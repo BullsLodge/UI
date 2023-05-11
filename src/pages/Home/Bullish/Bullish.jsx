@@ -1,11 +1,10 @@
-import bullishTrio from "./components/bullishTrio.png"
 
 const Bullish = () => {
   return (
     <section className=" md:m-16 flex md:flex-row flex-col-reverse justify-between md:items-end mb-32 md:mb-64">
       <img
         className="md:w-3/6 ml-auto md:px-12 px-8"
-        src={bullishTrio}
+        src={"/assets/images/bullishTrio.png"}
         alt=""
       />
       <div className="md:w-2/5 text-left md:px-16 md:m-12 m-8">

@@ -1,7 +1,5 @@
 import Slider from "./components/Slider"
-import mem1 from "./components/mem1.png"
-import mem2 from "./components/mem2.png"
-import mem3 from "./components/mem3.png"
+
 const Team = () => {
   return (
     <section className="mt-32 md:mt-64 mb-32">
@@ -16,13 +14,13 @@ const Team = () => {
       </div>
       <Slider
         team={[
-          { img: mem1, name: "rajnish" },
-          { img: mem2, name: "rajnish2" },
-          { img: mem3, name: "rajnish3" },
-          { img: mem1, name: "rajnish3" },
-          { img: mem2, name: "rajnish3" },
-          { img: mem3, name: "rajnish3" },
-          { img: mem1, name: "rajnish3" },
+          { img: "/assets/images/mem1.png", name: "rajnish" },
+          { img: "/assets/images/mem2.png", name: "rajnish2" },
+          { img: "/assets/images/mem3.png", name: "rajnish3" },
+          { img: "/assets/images/mem1.png", name: "rajnish3" },
+          { img:  "/assets/images/mem2.png", name: "rajnish3" },
+          { img:  "/assets/images/mem3.png", name: "rajnish3" },
+          { img:  "/assets/images/mem1.png", name: "rajnish3" },
         ]}
       />
     </section>

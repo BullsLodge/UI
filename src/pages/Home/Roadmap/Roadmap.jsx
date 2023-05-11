@@ -1,11 +1,5 @@
 import NFTContainer from "./components/NFTContainer"
 import NFTContainerRight from "./components/NFTContainerRight"
-import nft1 from "./components/nft1.png"
-import nft2 from "./components/nft2.png"
-import nft3 from "./components/nft3.png"
-import nft4 from "./components/nft4.png"
-import nft5 from "./components/nft5.png"
-import nft6 from "./components/nft6.png"
 
 const Roadmap = () => {
   return (
@@ -21,7 +15,7 @@ const Roadmap = () => {
       </h2>
       <div>
         <NFTContainer
-          img={nft1}
+          img={"/assets/images/nft1.png"}
           percent={"10%"}
           phase={"1"}
           description={
@@ -29,7 +23,7 @@ const Roadmap = () => {
           }
         />
         <NFTContainerRight
-          img={nft2}
+          img={"/assets/images/nft2.png"}
           percent={"35%"}
           phase={"2"}
           description={
@@ -37,13 +31,13 @@ const Roadmap = () => {
           }
         />
         <NFTContainer
-          img={nft3}
+          img={"/assets/images/nft3.png"}
           percent={"50%"}
           phase={"3"}
           description={"Metaverse development phase will begin."}
         />
         <NFTContainerRight
-          img={nft4}
+          img={"/assets/images/nft4.png"}
           percent={"65%"}
           phase={"4"}
           description={
@@ -51,7 +45,7 @@ const Roadmap = () => {
           }
         />
         <NFTContainer
-          img={nft5}
+          img={"/assets/images/nft5.png"}
           percent={"85%"}
           phase={"5"}
           description={
@@ -59,7 +53,7 @@ const Roadmap = () => {
           }
         />
         <NFTContainerRight
-          img={nft6}
+          img={"/assets/images/nft6.png"}
           percent={"100%"}
           phase={"6"}
           description={

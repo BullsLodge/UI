@@ -1,4 +1,3 @@
-import arrows from "./arrows.png"
 const NFTContainerRight = ({ img, phase, percent, description }) => {
   return (
     <div className="flex justify-between flex-col-reverse md:flex-row items-center my-32 overflow-hidden md:h-[396px]">
@@ -6,7 +5,7 @@ const NFTContainerRight = ({ img, phase, percent, description }) => {
         <div className="w-1/5 text-[#ffffff40] font-black text-center font-Montserrat text-2xl 2xl:text-3xl">
           <p>PHASE</p>
           <p className="text-6xl">{phase}</p>
-          <img src={arrows} alt="" />
+          <img src={"/assets/images/arrows.png"} alt="" />
         </div>
         <div className="w-3/5 text-right ">
           <p className=" font-Montserrat text-6xl font-black text-[#79FFFE] pb-8">

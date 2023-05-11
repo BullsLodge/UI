@@ -1,5 +1,3 @@
-import bull from "./components/storyBull.png"
-import expolreBtn from "./components/exploreBtn.png"
 
 const Story = () => {
   return (
@@ -28,7 +26,7 @@ const Story = () => {
         </p>
         <img
           className=" md:block hidden cursor-pointer mt-4"
-          src={expolreBtn}
+          src={"/assets/images/exploreBtn.png"}
           alt=""
         />
       </div>
@@ -38,7 +36,7 @@ const Story = () => {
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, ever since
         </p>
-        <img className="w-3/6 md:w-full ml-auto " src={bull} alt="" />
+        <img className="w-3/6 md:w-full ml-auto " src={"/assets/images/storyBull.png"} alt="" />
       </div>
       <div className="block md:hidden m-8">
         <p>
