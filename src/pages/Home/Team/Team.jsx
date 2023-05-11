@@ -4,7 +4,7 @@ import mem2 from "./components/mem2.png"
 import mem3 from "./components/mem3.png"
 const Team = () => {
   return (
-    <section className="mt-32 md:mt-64">
+    <section className="mt-32 md:mt-64 mb-32">
       <div className="text-center font-Oswald">
         <h2 className="uppercase font-bold my-2 text-4xl md:text-6xl mb-4">
           BULL'S LODGE NFT TEAM
