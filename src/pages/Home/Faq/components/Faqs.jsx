@@ -8,6 +8,7 @@ const Faqs = ({ ques }) => {
       {ques.map((que, index) => {
         return (
           <Collapsible
+            key={index}
             trigger={que.q}
             className=" font-Oswald md:text-3xl text-lg md:text-center mb-4 border-b-2 border-[#9900B160] pb-2 md:mx-64"
             transitionTime={600}

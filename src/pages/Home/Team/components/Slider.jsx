@@ -4,7 +4,6 @@ import { useMediaQuery } from "react-responsive"
 
 const Slider = ({ team }) => {
   const isBigScreen = useMediaQuery({ query: "(min-width: 768px)" })
-  console.log(isBigScreen)
   return (
     <>
       <Splide

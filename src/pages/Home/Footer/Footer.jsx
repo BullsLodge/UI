@@ -5,10 +5,10 @@ const Footer = () => {
         <div className="md:w-1/4 justify-center">
           <div className="font-Oswald text-center">
             <a href="">
-              <p className="text-xl font-seminold">JOIN US</p>
+              <p className="text-3xl font-seminold">JOIN US</p>
             </a>
             <a href="">
-              <p className="text-4xl font-bold">ON DISCORD</p>
+              <p className="text-6xl font-bold">ON DISCORD</p>
             </a>
           </div>
           <div className="flex justify-center">
