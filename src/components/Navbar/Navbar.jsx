@@ -5,7 +5,7 @@ const Navbar = ({ currentTab = "home" }) => {
   const [hamClicked, setHamClicked] = useState(true)
   return (
     <header
-      className={`  flex justify-evenly py-6 pt-12 md:p-6 bg-gradient-to-b from-[#35003520]  to-[#35003590]  ${
+      className={`h-[90px]  flex justify-evenly py-6 pt-12 md:p-6 bg-gradient-to-b from-[#35003520]  to-[#35003590]  ${
         !hamClicked && "py-6 pt-8"
       }`}
     >
@@ -13,7 +13,7 @@ const Navbar = ({ currentTab = "home" }) => {
         <nav
           className={`${
             !hamClicked && "hidden"
-          }  flex gap-2 md:gap-8 text-xs md:text-lg items-center`}
+          }  flex gap-2 md:gap-8 text-xs md:text-lg  items-center`}
         >
           <Link
             to="/"

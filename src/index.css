@@ -13,10 +13,15 @@ body {
   margin: 0;
   background: url("./assets/bg.svg");
   background-size: cover;
+  background-repeat: repeat-y;
   color: whitesmoke;
   font-family: "Montserrat", sans-serif;
 }
-
+@media only screen and (max-width: 769px) {
+  body {
+    background-size: contain;
+  }
+}
 main {
   display: block;
 }
@@ -184,4 +189,8 @@ template {
 
 [hidden] {
   display: none;
+}
+
+.white-arrows {
+  color: transparent !important;
 }
