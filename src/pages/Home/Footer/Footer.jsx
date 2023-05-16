@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const Footer = () => {
   return (
     <section>
@@ -30,17 +32,31 @@ const Footer = () => {
         </div>
         <div className="text-center font-Oswald text-xl md:text-2xl my-8 md:my-0 text-[#FF0099] underline">
           <p className="mb-2">
-            <a href="#">Terms and Conditions</a>
+            <Link
+              to="/terms"
+              onClick={() => {
+                window.scrollTo(0, 0)
+              }}
+            >
+              Terms and Conditions
+            </Link>
           </p>
           <p>
-            <a href="#">Privacy Policy</a>
+            <Link
+              to="/privacy"
+              onClick={() => {
+                window.scrollTo(0, 0)
+              }}
+            >
+              Privacy Policy
+            </Link>
           </p>
         </div>
         <div className="hidden md:block md:w-1/4">
           <img src="/assets/images/logo.png" alt="logo" />
         </div>
       </div>
-      <footer className="text-center font-Oswald text-lg md:text-2xl mb-32">
+      <footer className="text-center font-Oswald text-lg md:text-2xl pb-32">
         <p>© 2022 - Bulls Lodge NFT - All Rights Reserved.</p>
         <p className="text-[#FF0099]">
           <a href="mailto:contact@bullslodgenft.com">

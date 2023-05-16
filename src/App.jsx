@@ -1,17 +1,24 @@
 import { Route, Routes, Router } from "react-router-dom"
 import Home from "./pages/Home/Home"
+import Mint from "./pages/Mint/Mint"
+import Terms from "./pages/Terms/Terms"
+import Privacy from "./pages/Privacy/Privacy"
 
 const App = () => {
   return (
     <>
-      <Home />
-      {/* <Router> */}
-      {/* <Routes> */}
-      {/* <Route path="/" element={<Home />} /> */}
-      {/* <Route path="*" element={<Navigate to="/404" replace />} /> */}
-      {/* <Route path="/404" element={<PageNotFound />} /> */}
-      {/* </Routes> */}
-      {/* </Router> */}
+      {/* <Home /> */}
+      {/* <Mint /> */}
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/mint" element={<Mint />} />
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/privacy" element={<Privacy />} />
+
+        {/* <Route path="*" element={<Navigate to="/404" replace />} /> */}
+        {/* <Route path="/404" element={<PageNotFound />} /> */}
+      </Routes>
     </>
   )
 }
