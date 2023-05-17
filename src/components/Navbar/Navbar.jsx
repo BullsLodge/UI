@@ -7,7 +7,7 @@ const Navbar = ({ currentTab = "home" }) => {
     <header
       className={`h-[90px]  flex justify-evenly py-6 pt-12 md:p-6 bg-gradient-to-b from-[#35003520]  to-[#35003590]  ${
         !hamClicked && "py-6 pt-8"
-      }`}
+      } bg-[#350035] `}
     >
       {
         <nav
@@ -23,7 +23,14 @@ const Navbar = ({ currentTab = "home" }) => {
           >
             HOME
           </Link>
-          <Link to="/collection">COLLECTION</Link>
+          <Link
+            to="/mint"
+            className={`${
+              currentTab === "mint" ? "text-[#FF0099]" : "text-white"
+            }`}
+          >
+            MINT
+          </Link>
           <Link to="/about">ABOUT</Link>
           <Link to="/roadmap">ROADMAP</Link>
           <Link to="/team">TEAM</Link>

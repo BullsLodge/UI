@@ -1,7 +1,13 @@
+import Navbar from "../../components/Navbar/Navbar"
 import Hero from "./Hero/Hero"
 
 const Mint = () => {
-  return <Hero />
+  return (
+    <>
+      <Navbar currentTab="mint" />
+      <Hero />
+    </>
+  )
 }
 
 export default Mint
