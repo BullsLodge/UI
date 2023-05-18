@@ -4,11 +4,11 @@ const Hero = () => {
   return (
     <>
       <section className="bg-[url('/assets/bg.svg')] md:bg-none">
-        <div className="  justify-center gap-4 items-center 2xl:py-36 2xl:scale-100 md:scale-75  md:py-8 flex">
+        <div className=" pt-44  justify-center gap-4 items-center 2xl:py-36 2xl:scale-100 md:scale-[0.8]  md:py-16 flex">
           <div>
             <img src="/assets/images/mintLeft.png" alt="" />
           </div>
-          <div className="w-1/4 text-center  mt-36">
+          <div className="w-1/4 text-center ">
             <button className=" md:border-[20px] border-8 border-[#DB00FF] p-4 md:p-24 text-2xl md:text-6xl font-Oswald font-bold uppercase">
               Mint
               <br /> Now
