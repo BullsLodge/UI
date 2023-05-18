@@ -2,7 +2,7 @@ import Slider from "./components/Slider"
 
 const Team = () => {
   return (
-    <section className="mt-32 md:mt-64 mb-32 m-4">
+    <section id="team" className="mt-32 md:mt-64 mb-32 m-4">
       <div className="text-center font-Oswald">
         <h2 className="uppercase font-bold my-2  text-5xl md:text-6xl mb-4">
           BULL'S LODGE NFT TEAM

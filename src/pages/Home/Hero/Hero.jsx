@@ -30,7 +30,7 @@ const Hero = () => {
       </div>
       <div className=" md:flex hidden justify-center">
         <Link to="/mint">
-          <button className="font-Oswald font-bold border-4 hover:bg-[#FF0099] border-[#FF0099] p-8 mb-4 text-5xl">
+          <button className="font-Oswald font-bold border-4 hover:bg-gradient-to-b hover:from-[#EA00EF]  hover:to-[#FF0099]  border-[#FF0099] p-8 mb-4 text-5xl">
             MINT TBA
           </button>
         </Link>
@@ -44,27 +44,32 @@ const Hero = () => {
         <h2 className="">Metaverse & Reality. MINT to be announced soon.</h2>
       </div>
       <img
-        className="absolute md:block hidden  left-0 2xl:top-44 md:scale-75 2xl:scale-100 md:top-24"
+        className="absolute md:block hidden  left-0 2xl:top-44 origin-left md:scale-[0.7] 2xl:scale-90 md:top-24"
         src="/assets/images/leftHero.png"
         alt=""
       />
       <img
-        className=" fade-in-image absolute md:block hidden  left-0 2xl:top-44 md:scale-75 2xl:scale-100 md:top-24"
+        className=" fade-in-image absolute md:block hidden origin-left left-0 2xl:top-44 md:scale-[0.7] 2xl:scale-90 md:top-24"
         src="/assets/images/leftHeroChange.png"
         alt=""
       />
-      {/*  <img
-        className="absolute md:block hidden left-[21.5%] top-24 scale-75 "
+      <img
+        className="fade-out 4xl:hidden   md:block hidden absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-75 mt-4"
         src="/assets/images/middleHero.png"
         alt=""
-      /> */}
+      />
       <img
-        className="absolute md:block hidden right-0 2xl:top-44 md:scale-75 2xl:scale-100 md:top-24"
+        className="fade-in-image  md:block hidden absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-75  mt-4"
+        src="/assets/images/middleHeroChange.png"
+        alt=""
+      />
+      <img
+        className="absolute md:block hidden right-0 mr-8 2xl:top-44 origin-right md:scale-[0.7] 2xl:scale-90 md:top-24"
         src="/assets/images/rightHero.png"
         alt=""
       />
       <img
-        className="fade-in-image absolute md:block hidden right-0 2xl:top-44 md:scale-75 2xl:scale-100 md:top-24"
+        className="fade-in-image absolute md:block hidden right-0 origin-right mr-8 2xl:top-44 md:scale-[0.7] 2xl:scale-90 md:top-24"
         src="/assets/images/rightHeroChange.png"
         alt=""
       />

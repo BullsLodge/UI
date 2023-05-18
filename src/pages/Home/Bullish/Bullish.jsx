@@ -1,7 +1,9 @@
-
 const Bullish = () => {
   return (
-    <section className=" md:m-16 flex md:flex-row flex-col-reverse justify-between md:items-end mb-32 md:mb-64">
+    <section
+      id="about"
+      className=" md:m-16 flex md:flex-row flex-col-reverse justify-between md:items-end mb-32 md:mb-64"
+    >
       <img
         className="md:w-3/6 ml-auto md:px-12 px-8"
         src={"/assets/images/bullishTrio.png"}

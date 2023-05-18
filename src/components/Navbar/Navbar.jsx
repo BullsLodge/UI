@@ -23,11 +23,11 @@ const Navbar = ({ currentTab = "home" }) => {
           >
             HOME
           </Link>
-          <Link to="/collection">COLLECTION</Link>
-          <Link to="/about">ABOUT</Link>
-          <Link to="/roadmap">ROADMAP</Link>
-          <Link to="/team">TEAM</Link>
-          <Link to="/faq">FAQ</Link>
+          <a href="#collection">COLLECTION</a>
+          <a href="#about">ABOUT</a>
+          <a href="#roadmap">ROADMAP</a>
+          <a href="#team">TEAM</a>
+          <a href="#faq">FAQ</a>
         </nav>
       }
       <div

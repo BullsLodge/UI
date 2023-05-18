@@ -3,7 +3,7 @@ import NFTContainerRight from "./components/NFTContainerRight"
 
 const Roadmap = () => {
   return (
-    <section className="md:mt-64 mt-32 w-full overflow-hidden">
+    <section id="roadmap" className="md:mt-64 mt-32 w-full overflow-hidden">
       <h2 className="w-full uppercase text-center font-bold my-2 text-4xl md:text-6xl font-Oswald">
         The Roadmap
       </h2>
