@@ -1,6 +1,12 @@
 import { Link } from "react-router-dom"
+import AOS from "aos"
+import "aos/dist/aos.css"
+import { useEffect } from "react"
 
 const Hero = () => {
+  useEffect(() => {
+    AOS.init()
+  }, [])
   return (
     <section className="relative pt-32 md:mb-64 mb-12">
       <div className="flex font-Oswald text-center text-xl justify-center ">
@@ -43,16 +49,28 @@ const Hero = () => {
         <h2 className="">Home of your benefits in</h2>
         <h2 className="">Metaverse & Reality. MINT to be announced soon.</h2>
       </div>
-      <img
-        className="absolute md:block hidden  left-0 2xl:top-44 origin-left md:scale-[0.7] 2xl:scale-90 md:top-24"
-        src="/assets/images/leftHero.png"
-        alt=""
-      />
-      <img
-        className=" fade-in-image absolute md:block hidden origin-left left-0 2xl:top-44 md:scale-[0.7] 2xl:scale-90 md:top-24"
-        src="/assets/images/leftHeroChange.png"
-        alt=""
-      />
+      <div
+        data-aos="slide-right"
+        data-aos-duration="500"
+        className="absolute  left-0 2xl:top-44 md:top-24"
+      >
+        <img
+          className=" md:block hidden  origin-left md:scale-[0.7] 2xl:scale-90 "
+          src="/assets/images/leftHero.png"
+          alt=""
+        />
+      </div>
+      <div
+        data-aos="slide-right"
+        data-aos-duration="500"
+        className="absolute  left-0 2xl:top-44 md:top-24"
+      >
+        <img
+          className=" fade-in-image  md:block hidden origin-left md:scale-[0.7] 2xl:scale-90 "
+          src="/assets/images/leftHeroChange.png"
+          alt=""
+        />
+      </div>
       <img
         className="fade-out 4xl:hidden   md:block hidden absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-75 mt-4"
         src="/assets/images/middleHero.png"
@@ -63,16 +81,28 @@ const Hero = () => {
         src="/assets/images/middleHeroChange.png"
         alt=""
       />
-      <img
-        className="absolute md:block hidden right-0 mr-8 2xl:top-44 origin-right md:scale-[0.7] 2xl:scale-90 md:top-24"
-        src="/assets/images/rightHero.png"
-        alt=""
-      />
-      <img
-        className="fade-in-image absolute md:block hidden right-0 origin-right mr-8 2xl:top-44 md:scale-[0.7] 2xl:scale-90 md:top-24"
-        src="/assets/images/rightHeroChange.png"
-        alt=""
-      />
+      <div
+        data-aos="slide-left"
+        data-aos-duration="500"
+        className="absolute  right-0 2xl:top-44 md:top-24"
+      >
+        <img
+          className=" md:block hidden mr-8 origin-right md:scale-[0.7] 2xl:scale-90"
+          src="/assets/images/rightHero.png"
+          alt=""
+        />
+      </div>
+      <div
+        data-aos="slide-left"
+        data-aos-duration="500"
+        className="absolute  right-0 2xl:top-44 md:top-24"
+      >
+        <img
+          className="fade-in-image  md:block hidden  origin-right mr-8  md:scale-[0.7] 2xl:scale-90 "
+          src="/assets/images/rightHeroChange.png"
+          alt=""
+        />
+      </div>
     </section>
   )
 }

@@ -1,4 +1,3 @@
-
 const Story = () => {
   return (
     <section className=" md:m-16 flex md:flex-row flex-col justify-between md:items-end md:mb-64 mb-32">
@@ -24,11 +23,11 @@ const Story = () => {
           galley of type Lorem Ipsum is simply dummy text of the printing and
           typesetting industry.
         </p>
-        <img
-          className=" md:block hidden cursor-pointer mt-4"
-          src={"/assets/images/exploreBtn.png"}
-          alt=""
-        />
+        <a href="#">
+          <div className=" bg-[url('/assets/images/exploreBtn.png')] bg-no-repeat p-6   cursor-pointer mt-4 hover:bg-[url('/assets/images/exploreBtnHover.png')]">
+            Explore More
+          </div>
+        </a>
       </div>
       <div className="flex md:block ">
         <p className="2xl:text-lg  w-3/6  md:hidden flex items-end ml-8 mr-4 ">
@@ -36,7 +35,11 @@ const Story = () => {
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, ever since
         </p>
-        <img className="w-3/6 md:w-full ml-auto " src={"/assets/images/storyBull.png"} alt="" />
+        <img
+          className="w-3/6 md:w-full ml-auto "
+          src={"/assets/images/storyBull.png"}
+          alt=""
+        />
       </div>
       <div className="block md:hidden m-8">
         <p>
