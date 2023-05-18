@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 const Hero = () => {
   return (
-    <section className="relative mt-16 md:mb-64 mb-12">
+    <section className="relative pt-32 md:mb-64 mb-12">
       <div className="flex font-Oswald text-center text-xl  md:w-1/2 mx-auto ">
         <img
           className="absolute md:hidden w-full scale-90"

@@ -5,9 +5,9 @@ const Navbar = ({ currentTab = "home" }) => {
   const [hamClicked, setHamClicked] = useState(true)
   return (
     <header
-      className={`h-[90px]  flex justify-evenly py-6 pt-12 md:p-6 bg-gradient-to-b from-[#35003520]  to-[#35003590]  ${
+      className={`h-[90px]  flex justify-evenly py-6 pt-12 md:p-6 bg-gradient-to-b from-[#350035]  to-[#350035]  ${
         !hamClicked && "py-6 pt-8"
-      } bg-[#350035] `}
+      } fixed top-0 left-0 w-full z-10`}
     >
       {
         <nav
