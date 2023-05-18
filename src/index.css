@@ -16,8 +16,9 @@ body {
   background-repeat: repeat-y;
   color: whitesmoke;
   font-family: "Montserrat", sans-serif;
+  overflow-x: clip;
 }
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 768px) {
   body {
     background-size: contain;
   }

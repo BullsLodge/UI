@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 const Hero = () => {
   return (
@@ -31,9 +32,11 @@ const Hero = () => {
         />
       </div>
       <div className=" md:flex hidden justify-center">
-        <button className="font-Oswald font-normal border-2 hover:bg-[#FF0099] border-[#FF0099] p-8 mb-4 text-6xl">
-          MINT TBA
-        </button>
+        <Link to="/mint">
+          <button className="font-Oswald font-normal border-2 hover:bg-[#FF0099] border-[#FF0099] p-8 mb-4 text-6xl">
+            MINT TBA
+          </button>
+        </Link>
       </div>
       <p className="font-Oswald font-bold text-center text-6xl mt-36 md:mt-0">
         01:23:45

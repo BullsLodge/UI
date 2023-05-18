@@ -23,14 +23,7 @@ const Navbar = ({ currentTab = "home" }) => {
           >
             HOME
           </Link>
-          <Link
-            to="/mint"
-            className={`${
-              currentTab === "mint" ? "text-[#FF0099]" : "text-white"
-            }`}
-          >
-            MINT
-          </Link>
+          <Link to="/collection">COLLECTION</Link>
           <Link to="/about">ABOUT</Link>
           <Link to="/roadmap">ROADMAP</Link>
           <Link to="/team">TEAM</Link>
