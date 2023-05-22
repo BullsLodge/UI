@@ -24,7 +24,7 @@ const Story = () => {
           typesetting industry.
         </p>
         <a href="#">
-          <div className=" bg-[url('/assets/images/exploreBtn.png')] bg-no-repeat p-6   cursor-pointer mt-4 hover:bg-[url('/assets/images/exploreBtnHover.png')]">
+          <div className="hidden md:block bg-[url('/assets/images/exploreBtn.png')] bg-no-repeat p-6   cursor-pointer mt-4 hover:bg-[url('/assets/images/exploreBtnHover.png')]">
             Explore More
           </div>
         </a>
@@ -57,6 +57,11 @@ const Story = () => {
           typesetting industry.
         </p>
       </div>
+      <a href="#">
+        <div className=" md:hidden  bg-[url('/assets/images/exploreBtn.png')] bg-no-repeat p-6 m-8   cursor-pointer mt-4 hover:bg-[url('/assets/images/exploreBtnHover.png')]">
+          Explore More
+        </div>
+      </a>
     </section>
   )
 }

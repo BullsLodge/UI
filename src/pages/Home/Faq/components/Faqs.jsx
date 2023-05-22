@@ -10,15 +10,15 @@ const Faqs = ({ ques }) => {
           <Collapsible
             key={index}
             trigger={que.q}
-            className=" font-Oswald md:text-3xl text-lg md:text-center mb-4 border-b-2 border-[#9900B160] pb-2 md:mx-64"
+            className=" font-Oswald md:text-2xl text-base md:text-center mb-4 border-b-2 border-[#9900B160] pb-2 md:mx-64"
             transitionTime={600}
             open={index === currentOpen}
             onTriggerOpening={() => {
               setCurrentOpen(index)
             }}
-            openedClassName="  font-Oswald  md:text-3xl text-lg text-[#DB00FF] md:text-center"
+            openedClassName="  font-Oswald  md:text-2xl text-base text-[#DB00FF] md:text-center"
           >
-            <p className=" md:text-lg text-sm text-white md:text-center my-4 md:mx-64 border-b-2 border-[#9900B160] pb-4">
+            <p className=" md:text-base text-sm text-white md:text-center my-4 md:mx-64 border-b-2 border-[#9900B160] pb-4">
               {que.a}
             </p>
           </Collapsible>
