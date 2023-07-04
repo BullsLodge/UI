@@ -35,18 +35,32 @@ const Navbar = ({ currentTab = "home" }) => {
           hamClicked ? "hidden" : "flex gap-4"
         } md:flex gap-8 items-center`}
       >
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.linkedin.com/company/bullslodgenft/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src="/assets/images/linkedin.png" width={32} alt="linkedin" />
         </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.facebook.com/bullslodgenft/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src="/assets/images/facebook.png" width={32} alt="facebook" />
         </a>
         <a href="#" target="_blank" rel="noopener noreferrer">
           <img src="/assets/images/instagram.png" width={32} alt="instagram" />
         </a>
-        <button className="border-2 border-[#FF0099] p-2 md:p-4 text-xs md:text-base">
-          JOIN DISCORD
-        </button>
+        <a
+          href="https://discord.gg/VxkC8zmbWP/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="border-2 border-[#FF0099] p-2 md:p-4 text-xs md:text-base">
+            JOIN DISCORD
+          </button>
+        </a>
         <Link to="/">
           <img src="/assets/images/logo.png" width={46} alt="logo" />
         </Link>

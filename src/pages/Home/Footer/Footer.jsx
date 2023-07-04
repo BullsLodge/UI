@@ -9,23 +9,43 @@ const Footer = () => {
             <a href="">
               <p className="text-3xl font-seminold">JOIN US</p>
             </a>
-            <a href="">
+            <a
+              href="https://discord.gg/VxkC8zmbWP/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <p className="text-6xl font-bold">ON DISCORD</p>
             </a>
           </div>
           <div className="flex justify-center">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://discord.gg/VxkC8zmbWP/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src="/assets/images/discord.png" alt="logo" />
             </a>
           </div>
           <div className="flex justify-center gap-8">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.instagram.com/bullslodgenft/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src="/assets/images/linkedin.png" alt="logo" />
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.facebook.com/bullslodgenft/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src="/assets/images/facebook.png" alt="logo" />
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.instagram.com/bullslodgenft/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src="/assets/images/instagram.png" alt="logo" />
             </a>
           </div>
@@ -59,7 +79,11 @@ const Footer = () => {
       <footer className="text-center font-Oswald text-lg md:text-2xl pb-32">
         <p>© 2022 - Bulls Lodge NFT - All Rights Reserved.</p>
         <p className="text-[#FF0099]">
-          <a href="mailto:contact@bullslodgenft.com">
+          <a
+            href="mailto:contact@bullslodgenft.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Contact E-mail: contact@bullslodgenft.com
           </a>
         </p>

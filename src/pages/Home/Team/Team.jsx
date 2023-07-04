@@ -7,9 +7,9 @@ const Team = () => {
         <h2 className="uppercase font-bold my-2  text-5xl md:text-6xl mb-4">
           BULL'S LODGE NFT TEAM
         </h2>
-        <h3 className="text-sm md:text-3xl font-normal mb-12 md:mb-24">
-          Project welcomes members around the world to share in knowledge about
-          the ever-evolving space of NFTs.
+        <h3 className="2xl:w-3/4 2xl:mx-auto text-sm md:text-3xl font-normal mb-12 md:mb-24">
+        We welcome enthusiastic contributors to share their knowledge about continuously evolving technology space. Send your application to hr@bullslodgenft.com with this subject: “Candidate Bull”
+
         </h3>
       </div>
       <Slider

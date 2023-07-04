@@ -2,7 +2,7 @@ import AOS from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
 
-const NFTContainerRight = ({ img, phase, percent, description }) => {
+const NFTContainerRight = ({ img, phase, percent, description, head }) => {
   useEffect(() => {
     AOS.init()
   }, [])
@@ -22,9 +22,13 @@ const NFTContainerRight = ({ img, phase, percent, description }) => {
               <p className=" font-Montserrat text-6xl font-black text-[#79FFFE] pb-8">
                 {percent}
               </p>
-              <p className="md:leading-8 leading-6 font-Montserrat 2xl:text-xl">
-                {description}
-              </p>
+              <h2 className="text-2xl mb-4 font-black">{head}</h2>
+
+              <ul className="md:leading-8 leading-6 font-Montserrat  list-disc list-inside 2xl:text-lg">
+                {description.map((line) => (
+                  <li>{line}</li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>

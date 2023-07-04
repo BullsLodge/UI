@@ -11,62 +11,46 @@ const Faq = () => {
       <Faqs
         ques={[
           {
-            q: "What is Bull’s Lodge NFT project’s mission and vision",
-            a: "Most of us have found ourselves either with NFT Project without utilities or worse, end up with rugpull. As this is not enough, we also have to face with Bearish Market sentiment and it's consequences... When it's sunshine and flowers everything is beautiful. But what about when Market is bloody hell? That was enough and we have made our decision! We want to create a value with Metaverse & In Real Life utilities and benefits for the members of our society. When it comes to earning, we want to create sustainable passive income model for members of Lodge. For this purpose, we have gathered together as volunteers/investors/contributors of Web3 and NFT. We have come together to push each other's back despite how strong the wind is. People from communities across the Web3, Blockchain, Machine Learning and NFT Spaces are now working to build a better COMMUNITY, a better HOME, a better LODGE!",
+            q: "What is NFT?",
+            a: "NFT, stands for Non-Fungible Token, which is unique digital assets that can represent ownership or proof of authentic digital items or content pieces from pictures to audios to videos.",
           },
           {
-            q: "What is Bull’s Lodge NFT and how can I buy",
-            a: "Most of us have found ourselves either with NFT Project without utilities or worse, end up with rugpull. As this is not enough, we also have to face with Bearish Market sentiment and it's consequences... When it's sunshine and flowers everything is beautiful. But what about when Market is bloody hell?",
+            q: "What can I do with NFT?",
+            a: "You can showcase your NFT by sharing, or you can gift NFT or you can put your NFT for sale from your wallet to the marketplace that supports blockchain where your NFT resides. ",
           },
           {
-            q: "Wait? You guys mentioned “Lodge”, what do you mean?",
-            a: "Most of us have found ourselves either with NFT Project without utilities or worse, end up with rugpull. As this is not enough, we also have to face with Bearish Market sentiment and it's consequences... When it's sunshine and flowers everything is beautiful. But what about when Market is bloody hell?",
-          },
-          {
-            q: "What is the minting price and max supply?",
-            a: "Most of us have found ourselves either with NFT Project without utilities or worse, end up with rugpull. As this is not enough, we also have to face with Bearish Market sentiment and it's consequences... When it's sunshine and flowers everything is beautiful. But what about when Market is bloody hell?",
-          },
-          {
-            q: "Real life and metaverse huh? How are you going to cover all of this with just ... Matic?",
-            a: "Most of us have found ourselves either with NFT Project without utilities or worse, end up with rugpull. As this is not enough, we also have to face with Bearish Market sentiment and it's consequences... When it's sunshine and flowers everything is beautiful. But what about when Market is bloody hell?",
-          },
-          {
-            q: "Why create a community wallet if you are going to control everything?",
-            a: "Most of us have found ourselves either with NFT Project without utilities or worse, end up with rugpull. As this is not enough, we also have to face with Bearish Market sentiment and it's consequences... When it's sunshine and flowers everything is beautiful. But what about when Market is bloody hell?",
-          },
-          {
-            q: "What are 1000 reserved Bulls?",
-            a: "Most of us have found ourselves either with NFT Project without utilities or worse, end up with rugpull. As this is not enough, we also have to face with Bearish Market sentiment and it's consequences... When it's sunshine and flowers everything is beautiful. But what about when Market is bloody hell?",
-          },
-          {
-            q: "What benefits do I get by holding Bull's Lodge BFT?",
-            a: "Most of us have found ourselves either with NFT Project without utilities or worse, end up with rugpull. As this is not enough, we also have to face with Bearish Market sentiment and it's consequences... When it's sunshine and flowers everything is beautiful. But what about when Market is bloody hell?",
-          },
-          {
-            q: "When can I begin minting?",
-            a: "Most of us have found ourselves either with NFT Project without utilities or worse, end up with rugpull. As this is not enough, we also have to face with Bearish Market sentiment and it's consequences... When it's sunshine and flowers everything is beautiful. But what about when Market is bloody hell?",
+            q: "What is your NFT specifications?",
+            a: "Our Bulls Lodge NFT resides on Polygon (Matic) Blockchain. Our minting price is 222 MATIC Our NFTs has limited 10,000 supply. You can mint up to 20 Bulls per transaction. Our Royalty Fee is %5.",
           },
           {
             q: "Where can I trade my Bulls?",
-            a: "Most of us have found ourselves either with NFT Project without utilities or worse, end up with rugpull. As this is not enough, we also have to face with Bearish Market sentiment and it's consequences... When it's sunshine and flowers everything is beautiful. But what about when Market is bloody hell?",
+            a: "You can trade your Bulls on compatible NFT Marketplaces or directly with your friends and/or other NFT collectors.",
           },
           {
-            q: "How many Bull's Lodge NFT's can I purchase?",
-            a: "Most of us have found ourselves either with NFT Project without utilities or worse, end up with rugpull. As this is not enough, we also have to face with Bearish Market sentiment and it's consequences... When it's sunshine and flowers everything is beautiful. But what about when Market is bloody hell?",
+            q: "What is 1,000 Reserved Bull?",
+            a: "1,000 Bulls from our collection will be reserved for community giveaways, partnerships, sponsorships events and many other privileges for you. How can I stay up-to-date with you? You can find us through our Official Social Media Accounts listed below and on our website. For safety precautions, please double check the pages or social media before you proceed.",
           },
           {
-            q: "What will happen if whales own huge proportion of NFTs?",
-            a: "Most of us have found ourselves either with NFT Project without utilities or worse, end up with rugpull. As this is not enough, we also have to face with Bearish Market sentiment and it's consequences... When it's sunshine and flowers everything is beautiful. But what about when Market is bloody hell?",
+            q: "I am not sure if I should mint one of your NFTs, what to do?",
+            a: "If you are unsure about minting or you do not have spare cryptocurrency, for your peace of mind we do not suggest you to mint our NFTs. Minting an NFT is an irreversible transaction on the blockchain. Your happiness and peace is more important.",
           },
           {
-            q: "Who is behind Bull’s Lodge NFT Project?",
-            a: "Most of us have found ourselves either with NFT Project without utilities or worse, end up with rugpull. As this is not enough, we also have to face with Bearish Market sentiment and it's consequences... When it's sunshine and flowers everything is beautiful. But what about when Market is bloody hell?",
+            q: "I do not have spare money but I want to own Bulls Lodge NFT, what to do?",
+            a: "You need not to worry dear candidate bull! Join us in Discord and follow our social media accounts for giveaways and weekly raffles for a chance of free Bulls Lodge NFT!",
           },
+          {
+            q: "How can I mint on Bulls Lodge NFT?",
+            a: "If you wish to mint Bulls Lodge NFT from our collection, check our only official website (https://www.bullslodgenft.com/) and simply connect your compatible crypto wallet, approve the transaction and done.",
+          },
+          {
+            q: "Congratulations! I do not have Bull yet but I wish to join to your lodge, what to do?",
+            a: "You are welcome to join us, enjoy and discover the prosperity within Bulls Lodge NFT Discord!",
+          },
+         
         ]}
       />
       <p className=" md:text-lg text-sm text-white md:text-center font-thin italic my-8 md:mx-64 pb-4">
-        If you can’t find the information you seek here, don’t hesitate to reach
-        out to our super-friendly support team in our Official Discord
+      If you can’t find the information you seek here, do not hesitate to reach out to our super-friendly support in our Official Discord!
       </p>
     </section>
   )
