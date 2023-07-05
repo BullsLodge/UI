@@ -19,7 +19,7 @@ const Footer = () => {
           </div>
           <div className="flex justify-center">
             <a
-              href="https://discord.gg/VxkC8zmbWP/"
+              href="https://discord.com/invite/VxkC8zmbWP"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -33,6 +33,13 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <img src="/assets/images/linkedin.png" alt="logo" />
+            </a>
+            <a
+              href="https://twitter.com/blnftofficial/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/assets/images/twitter.png" alt="logo" />
             </a>
             <a
               href="https://www.facebook.com/bullslodgenft/"

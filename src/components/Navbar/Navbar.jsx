@@ -43,17 +43,28 @@ const Navbar = ({ currentTab = "home" }) => {
           <img src="/assets/images/linkedin.png" width={32} alt="linkedin" />
         </a>
         <a
+          href="https://twitter.com/blnftofficial/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/assets/images/twitter.png" width={32} alt="linkedin" />
+        </a>
+        <a
           href="https://www.facebook.com/bullslodgenft/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img src="/assets/images/facebook.png" width={32} alt="facebook" />
         </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.instagram.com/bullslodgenft/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src="/assets/images/instagram.png" width={32} alt="instagram" />
         </a>
         <a
-          href="https://discord.gg/VxkC8zmbWP/"
+          href="https://discord.com/invite/VxkC8zmbWP"
           target="_blank"
           rel="noopener noreferrer"
         >
