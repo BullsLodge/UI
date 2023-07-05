@@ -70,6 +70,15 @@ const Privacy = () => {
         quality of provided services and adapting them to recipients.
       </p>
       <h3 className="font-Oswald md:text-2xl text-xl font-medium my-4">
+        4. In principle, we process the data provided by you. If you did not
+        provide us with your data, their source is an entity that had your
+        consent to disclose it to the controller, or another valid legal basis.
+        In this case, the obtained personal data includes the data necessary to
+        conduct a given type of marketing activities (typically, these are first
+        name, surname, e-mail address, telephone number and / or mailing
+        address).
+      </h3>
+      <h3 className="font-Oswald md:text-2xl text-xl font-medium my-4">
         5. In principle, your personal data will not be transferred outside the
         European Economic Area (hereinafter: EEA.. Taking into account the
         services provided by the controller's subcontractors in the
@@ -96,7 +105,7 @@ const Privacy = () => {
         are made available.
       </h3>
       <h3 className="font-Oswald md:text-2xl text-xl font-medium my-4">
-        3. The recipients of your personal data may be:
+        6. The recipients of your personal data may be:
       </h3>
       <p className=" md:text-lg md:leading-none mb-2 ">
         <span className="font-normal">A. </span>
@@ -140,6 +149,19 @@ const Privacy = () => {
       <h3 className="font-Oswald md:text-2xl text-xl font-medium my-4">
         8. You enjoy the rights to access, rectify, erase, restrict processing,
         to data portability, and to object to data processing.
+      </h3>
+      <h3 className="font-Oswald md:text-2xl text-xl font-medium my-4">
+        9. If you believe that the processing of your personal data violates the
+        provisions of the GDPR, you have the right to lodge a complaint with the
+        supervisory authority.
+      </h3>
+      <h3 className="font-Oswald md:text-2xl text-xl font-medium my-4">
+        10. Providing personal data is voluntary, but necessary to achieve the
+        purposes of processing indicated above.
+      </h3>
+      <h3 className="font-Oswald md:text-2xl text-xl font-medium my-4">
+        11. Your data will not be subject to automated decision making producing
+        legal effects or a similarly significant impact.
       </h3>
     </section>
   )

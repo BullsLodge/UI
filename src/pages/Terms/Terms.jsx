@@ -194,10 +194,7 @@ const Terms = () => {
         18. The model withdrawal template that can be copied and completed only
         if you wish to withdraw from the contract is as follows:
       </h3>
-      <h3 className="font-Oswald md:text-2xl text-xl font-medium my-4">
-        17. Detailed information for persons entitled to the right to
-        withdrawal:
-      </h3>
+
       <ul className=" md:text-lg md:leading-none mb-2 list-disc list-inside">
         <li>Addressee: (our details from section 1 of the Terms of Service)</li>
         <li>
