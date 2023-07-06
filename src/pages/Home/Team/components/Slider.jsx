@@ -10,16 +10,17 @@ const Slider = ({ team }) => {
         options={{
           autoHeight: true,
           type: "loop",
-          perPage: isBigScreen ? 6 : 3,
+          perPage: isBigScreen ? 1 : 1,
           focus: 0,
           gap: "2%",
           pagination: false,
+          width: isBigScreen ? 280 : 160,
         }}
         aria-label="Team"
       >
         {team.map((member, index) => (
           <SplideSlide key={index}>
-            <div className=" rounded-xl  bg-gradient-to-b from-[#FF0099B2] to-[#B845FFB2] ">
+            <div className=" rounded-xl truncate  bg-gradient-to-b from-[#FF0099B2] to-[#B845FFB2] ">
               <img
                 className=" md:h-[300px] h-[180px] "
                 src={member.img}
@@ -29,12 +30,14 @@ const Slider = ({ team }) => {
             <h3 className="uppercase font-Oswald font-semibold my-2 text-xl text-center md:text-3xl mb-4">
               {member.name}
             </h3>
-            <p className="  font-Oswald leading-3 capitalize my-2 text-lg md:text-2xl mb-4">
-              {member.designation}
-            </p>
-            <p className="font-thin text-xs md:text-base capitalize my-2 mb-4">
+            <a href={member.link} target="_blank" rel="noopener noreferrer">
+              <p className="  font-Oswald leading-3 capitalize my-2 text-lg md:text-2xl mb-4">
+                {member.designation}
+              </p>
+            </a>
+            {/*  <p className="font-thin text-xs md:text-base capitalize my-2 mb-4">
               {member.description}
-            </p>
+            </p> */}
           </SplideSlide>
         ))}
       </Splide>

@@ -8,58 +8,18 @@ const Team = () => {
           BULL'S LODGE NFT TEAM
         </h2>
         <h3 className="2xl:w-3/4 2xl:mx-auto text-sm md:text-3xl font-normal mb-12 md:mb-24">
-        We welcome enthusiastic contributors to share their knowledge about continuously evolving technology space. Send your application to hr@bullslodgenft.com with this subject: “Candidate Bull”
-
+          We welcome enthusiastic contributors to share their knowledge about
+          continuously evolving technology space. Send your application to
+          hr@bullslodgenft.com with this subject: “Candidate Bull”
         </h3>
       </div>
       <Slider
         team={[
           {
-            img: "/assets/images/mem1.png",
-            name: "artist bull",
-            designation: "lead funder",
-            description:
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, aliquid!",
-          },
-          {
-            img: "/assets/images/mem2.png",
-            name: "artist bull",
-            designation: "lead funder",
-            description:
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, aliquid!",
-          },
-          {
-            img: "/assets/images/mem3.png",
-            name: "artist bull",
-            designation: "lead funder",
-            description:
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, aliquid!",
-          },
-          {
-            img: "/assets/images/mem1.png",
-            name: "artist bull",
-            designation: "lead funder",
-            description:
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, aliquid!",
-          },
-          {
-            img: "/assets/images/mem2.png",
-            name: "artist bull",
-            designation: "lead funder",
-            description:
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, aliquid!",
-          },
-          {
-            img: "/assets/images/mem3.png",
-            name: "artist bull",
-            designation: "lead funder",
-            description:
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, aliquid!",
-          },
-          {
-            img: "/assets/images/mem1.png",
-            name: "artist bull",
-            designation: "lead funder",
+            img: "/assets/images/founder.jpeg",
+            name: "Professor Bull",
+            designation: "Linkedin",
+            link: " https://www.linkedin.com/in/kadir-ulas-678962142/",
             description:
               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, aliquid!",
           },
