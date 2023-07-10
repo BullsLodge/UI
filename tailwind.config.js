@@ -7,9 +7,9 @@ export default {
         "roadmap-bg": "url('/assets/roadmap-bg.png')",
       }, */
       fontFamily: {
-        Inter: ["Inter", "sans-serif"],
+        // Inter: ["Inter", "sans-serif"],
         Montserrat: ["Montserrat", "sans-serif"],
-        Oswald: ["Oswald", "sans-serif"],
+        // Oswald: ["Oswald", "sans-serif"],
       },
     },
   },

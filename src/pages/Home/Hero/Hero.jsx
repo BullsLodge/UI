@@ -19,7 +19,7 @@ const Hero = () => {
         </Link>
 
         <div>
-          <h1 className="zoom-in-text px-4 md:px-0 text-5xl md:text-7xl leading-relaxed md:leading-snug transition-all font-bold mb-4">
+          <h1 className="zoom-in-text px-4 md:px-0 text-4xl md:text-7xl leading-relaxed md:leading-snug transition-all font-bold mb-4">
             GET BULLISH
             <br /> NOW!
           </h1>
@@ -36,7 +36,7 @@ const Hero = () => {
       </div>
       <div className=" md:flex hidden justify-center">
         <Link to="/mint">
-          <button className="font-Oswald font-bold border-4 hover:bg-gradient-to-b hover:from-[#EA00EF]  hover:to-[#FF0099]  border-[#FF0099] p-8 mb-4 text-5xl">
+          <button className="font-Oswald font-bold border-4 hover:bg-gradient-to-b hover:from-[#EA00EF]  hover:to-[#FF0099]  border-[#FF0099] p-8 mb-4 text-3xl leading-tight">
             MINT NOW
           </button>
         </Link>

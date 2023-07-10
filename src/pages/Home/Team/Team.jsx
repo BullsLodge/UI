@@ -13,18 +13,37 @@ const Team = () => {
           hr@bullslodgenft.com with this subject: “Candidate Bull”
         </h3>
       </div>
-      <Slider
+      <div className=" rounded-xl mx-auto truncate w-fit ">
+        <img
+          className=" md:h-[600px] h-[280px] "
+          src="/assets/images/founder.jpeg"
+          alt=""
+        />
+      </div>
+      <h3 className="uppercase font-Oswald font-semibold my-2 text-3xl text-center md:text-3xl mb-4">
+        Professor Bull
+        <br />
+        <a
+          className="text-xl"
+          href="https://www.linkedin.com/in/kadir-ulas-678962142/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Linkedin
+        </a>
+      </h3>
+      {/*   <Slider
         team={[
           {
             img: "/assets/images/founder.jpeg",
             name: "Professor Bull",
             designation: "Linkedin",
-            link: " https://www.linkedin.com/in/kadir-ulas-678962142/",
+            link: "https://www.linkedin.com/in/kadir-ulas-678962142/",
             description:
               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, aliquid!",
           },
         ]}
-      />
+      /> */}
     </section>
   )
 }

@@ -11,17 +11,20 @@ const Story = () => {
         <p className="2xl:text-lg  md:block hidden">
           Entering Bulls Lodge NFT means for you joining a family full of
           enthusiasts of the future of technology by embracing new discoveries
-          for a life full of adventure. But I am not just guiding you to embark
-          on this journey as a spectator. No, I plead for you to become an
-          active participant in the Bulls Lodge. Immerse yourself into the world
-          of NFTs, engage with extraordinary members of the community and
-          uncover the hidden privileges that awaits you in Lodge! Step into a
-          world where dreams become reality. Only your actions will stage your
-          destiny and leave a lasting impact on your journey as Bull. Now go
-          forth, brave Bull! Your Bullish Adventure awaits. By minting your
-          bull, you harness the power to become a legend in the World of NFTs!
-          So, I extend my hand and invite you to take a salto mortale - a leap
-          of faith. Join us!
+          for a life full of adventure. <br /> <br /> But I am not just guiding
+          you to embark on this journey as a spectator. <br /> <br /> No, I
+          plead for you to become an active participant in the Bulls Lodge.{" "}
+          <br /> <br />
+          Immerse yourself into the world of NFTs, engage with extraordinary
+          members of the community and uncover the hidden privileges that awaits
+          you in Lodge! Step into a world where dreams become reality. <br />{" "}
+          <br />
+          Only your actions will stage your destiny and leave a lasting impact
+          on your journey as Bull. <br /> <br /> Now go forth, brave Bull! Your
+          Bullish Adventure awaits. <br /> <br /> By minting your bull, you
+          harness the power to become a legend in the World of NFTs! <br />{" "}
+          <br /> So, I extend my hand and invite you to take a salto mortale - a
+          leap of faith. Join us!
         </p>
         <a
           href="https://bullslodgenft.gitbook.io/docs/"
