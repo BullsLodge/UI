@@ -41,8 +41,8 @@ const Hero = () => {
           </button>
         </Link>
       </div>
-      <p className="font-Oswald font-bold text-center text-6xl mt-36 md:mt-0">
-        01:23:45
+      <p className="font-Oswald font-bold text-center text-2xl mt-36 md:mt-0 lg:text-6xl">
+        To be announced soon
       </p>
       <div className="md:hidden font-Oswald text-center text-xl mt-6">
         <h2 className="text-2xl">Bull's Lodge NFT</h2>

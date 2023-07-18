@@ -28,7 +28,11 @@ const Faq = () => {
           },
           {
             q: "What is 1,000 Reserved Bull?",
-            a: "1,000 Bulls from our collection will be reserved for community giveaways, partnerships, sponsorships events and many other privileges for you. How can I stay up-to-date with you? You can find us through our Official Social Media Accounts listed below and on our website. For safety precautions, please double check the pages or social media before you proceed.",
+            a: "1,000 Bulls from our collection will be reserved for community giveaways, partnerships, sponsorships events and many other privileges for you.",
+          },
+          {
+            q: "How can I stay up-to-date with you?",
+            a: "You can find us through our Official Social Media Accounts listed below and on our website. For safety precautions, please double check the pages or social media before you proceed.",
           },
           {
             q: "I am not sure if I should mint one of your NFTs, what to do?",
@@ -46,11 +50,11 @@ const Faq = () => {
             q: "Congratulations! I do not have Bull yet but I wish to join to your lodge, what to do?",
             a: "You are welcome to join us, enjoy and discover the prosperity within Bulls Lodge NFT Discord!",
           },
-         
         ]}
       />
       <p className=" md:text-lg text-sm text-white md:text-center font-thin italic my-8 md:mx-64 pb-4">
-      If you can’t find the information you seek here, do not hesitate to reach out to our super-friendly support in our Official Discord!
+        If you can’t find the information you seek here, do not hesitate to
+        reach out to our super-friendly support in our Official Discord!
       </p>
     </section>
   )
