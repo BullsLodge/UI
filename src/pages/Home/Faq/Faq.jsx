@@ -4,7 +4,7 @@ const Faq = () => {
   return (
     <section id="faq" className="mt-32 md:mt-64 mb-32 m-4">
       <div className="text-center font-Oswald">
-        <h2 className="uppercase font-bold my-2  text-5xl md:text-6xl mb-16">
+        <h2 className="uppercase font-bold my-2  text-4xl md:text-6xl mb-16">
           Bull's Lodge NFT
         </h2>
       </div>

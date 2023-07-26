@@ -14,7 +14,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p className="text-6xl font-bold">ON DISCORD</p>
+              <p className="text-4xl lg:text-6xl font-bold">ON DISCORD</p>
             </a>
           </div>
           <div className="flex justify-center">
